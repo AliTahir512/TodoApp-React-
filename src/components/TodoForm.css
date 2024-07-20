@@ -1,0 +1,20 @@
+
+.todo-form {
+    margin-bottom: 20px;
+  }
+  
+  .todo-input {
+    width: 400px;
+    padding: 10px;
+    font-size: 25px;
+  }
+  
+  .todo-button {
+    padding: 10px;
+    background-color: rgb(19, 240, 19);
+    color: black;
+    border: 1px solid grey;
+    margin: 5px;
+    font-size: 25px;
+  }
+  

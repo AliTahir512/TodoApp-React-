@@ -1,0 +1,11 @@
+
+.todo {
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.todo h2 {
+  color: #333;
+  margin: 10px;
+}

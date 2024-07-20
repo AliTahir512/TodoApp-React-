@@ -1,0 +1,50 @@
+/* src/components/TodoList.css */
+.todo-list {
+    margin-top: 20px;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 25px;
+  }
+  
+  .todo-item span {
+    cursor: pointer;
+  }
+  
+  .todo-item div {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-button, .done-button, .remove-button {
+    background: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 25px;
+  }
+  
+  .edit-button:hover, .done-button:hover, .remove-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .done-button {
+    margin-right: 10px;
+  }
+  
+  .remove-button {
+    color: red;
+  }
+  
+  .remove-button:hover {
+    color: darkred;
+  }
+  
