@@ -1,18 +1,31 @@
 import React from "react";
-import "./Contact.css"
+import "./Contact.css";
 
-function Contact(){
+function Contact() {
+  return (
+    <div className="contact">
 
-    return(
-
-        <div>
-            <h1>Contact Us Page</h1>
-
-            <p>I am Contact Page</p>
-        </div>
-
-    );
-
+      <div className="contact-container">
+        <h1>Contact Us</h1>
+        <p>
+          Get in touch with us by filling the form, your suggestions and reviews
+          matter a lot to us.
+        </p>
+      </div>
+      
+      <div className="form-container">
+        <label htmlFor="First-name">First Name</label>
+        <input type="text" id="First-name" />
+        <label htmlFor="Last-name">Last Name</label>
+        <input type="text" id="Last-name" />
+        <label htmlFor="Email">Email</label>
+        <input type="email" id="Email" />
+        <label htmlFor="Message">What can we help you with</label>
+        <input type="text" id="Message" />
+        <button type="submit">Submit</button>
+      </div>
+    </div>
+  );
 }
 
 export default Contact;
